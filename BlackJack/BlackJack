@@ -1,0 +1,94 @@
+import random
+
+print ( "Welcome to blackjack!!")
+
+#make a list of all the cards( just the numbers of the cards)
+cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,10, 10, 10]
+
+
+
+
+# user gets a set of 2 cards (2 numbers) random
+print ("Here are 2 cards!! ")
+
+a = random.choices(cards,k=2)
+total = sum(a)
+#the sum of the cards is calculated
+print (f"You have {a} , Total={sum(a)}")
+
+
+    #if sum >21 
+        #print you lose
+if total >21:
+    print ("you lose")
+    print ("game over!!")
+
+b = []
+# computer gets one card  (one number) random
+
+def comp(b):
+    c = random.choice(cards)
+    b.append(c)
+    return b
+
+print(f"computer = {comp(b)}")
+
+# check for ace 
+    #if one of 2 cards is == 11 and sum > 21
+        #that card becomes value of 1
+
+# a choice is given to the user to either Hit or hold
+hh = input ( " would you like to hit or hold? type 'hit' for getting another card or 'hold' to not get another card ")
+hh = hh.lower()
+
+# if hit , give user another card from the list of cards
+if hh == 'hit':
+    
+    c = random.choice(cards)
+    a.append(c)
+
+    #give the computer another card 
+    comp(b)
+
+    #calculate the sum of the cards for user and computer
+    total2=sum(b)
+    print (f"user cards = {a} sum = {total} \n computer = {b} sum = {total2}")
+
+    #if sum of computer <16 give more cards
+    if total2 < 16:
+        comp(b)
+        total2 = sum(b)
+        print (f"computer = {b} ; sum = {total2}")
+
+    #if sum of user > sum of computer  AND sum of user <= 21
+    if total > total2 and total <= 21:
+        #print you win
+        print ("You win")
+    #else if sum of user > 21
+    elif total > 21:
+        #print you lose
+        print (" you lose!!")
+    #else if sum of user == sum of computer
+    elif total==total2:
+        # DRAW!!
+        print ("DRAW!!")
+    #else
+    else:
+        #print you lose
+        print ("you lose!!")
+        
+
+
+# if  hold , give computer another card randomly from the list  
+if hh == "hold" :
+    #calculate the sum of the 2 card of the computer
+    
+        #if sum of user > sum of computer  AND sum of user <= 21
+            #print you win
+        #else if sum of user > 21
+            #print you lose
+        #else if sum of user == sum of computer
+            # DRAW!!
+        #else
+            #print you lose
+

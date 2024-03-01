@@ -1,0 +1,82 @@
+import random
+print ("welcome to blackjack")
+
+a=[]
+b=[]
+
+
+
+def add_card():
+    cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,10, 10, 10]
+    card = random.choice(cards)
+    return card 
+
+i=0 
+while i < 2:
+    a.append(add_card())
+    i=i+1
+
+b.append(add_card())
+
+flag = True
+def check_score(a):
+
+    if sum(a)>21:
+        print ("you lose")
+        return 0
+    
+    if sum(a)>21 and 11 in a:
+        a.remove(11)
+        a.append(1)
+    
+    return sum(a)
+
+
+def compare(user_score,computer_score):
+  if user_score > 21 and computer_score > 21:
+     return "You went over. You lose 😤"
+  if user_score == computer_score:
+    return "Draw 🙃"
+  elif computer_score == 0:
+    return "Lose, opponent has Blackjack 😱"
+  elif user_score == 0:
+    return "Win with a Blackjack 😎"
+  elif user_score > 21:
+    return "You went over. You lose 😭"
+  elif computer_score > 21:
+    return "Opponent went over. You win 😁"
+  elif user_score > computer_score:
+    return "You win 😃"
+  else:
+    return "You lose 😤"
+
+while flag:
+    user_score = check_score(a)
+    computer_score = check_score(b)
+
+    print (f" the users cards are {a} and the total is {user_score}")
+    print (f" computer cards = {b} total={computer_score}")
+        
+    if user_score ==0 or computer_score == 0 or user_score>21:
+        flag=False
+
+    else:
+        deal = input ("would you like to pick another card? y/n")
+        deal = deal.lower()
+        if deal =="y":
+            a.append(add_card())
+        else:
+            flag=False
+
+
+user_score= check_score(a)
+computer_score = check_score(b)
+while computer_score <17 and computer_score!=0:
+    b.append(add_card())
+    computer_score = check_score(b)
+
+# print (f"you final hand {a} and final score {user_score}")
+# print (f" computers cards {b} and final score {computer_score}")
+
+# print (compare(user_score,computer_score))
+

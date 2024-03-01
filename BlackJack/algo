@@ -1,0 +1,5 @@
+-2 cards to user 1 card to computer
+-calculate the sum of user and computer
+-if user sum > 21 
+    you lose
+-elif user sum = 21  
