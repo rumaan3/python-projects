@@ -1,0 +1,102 @@
+[
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Television",
+        "question": "In &quot;Doctor Who&quot;, the Doctor gets his TARDIS by stealing it.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "The Indie Game Development Studio Cing, developers of Hotel Dusk and Last Window, went bankrupt on March 1st, 2010.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Cartoon &amp; Animations",
+        "question": "Bill Cipher in the show &quot;Gravity Falls&quot; is the good guy.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Japanese Anime &amp; Manga",
+        "question": "In the &quot;Toaru Kagaku no Railgun&quot; anime,  espers can only reach a maximum of level 6 in their abilities.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Geography",
+        "question": "Greenland is almost as big as Africa.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "There are 6 legendary cards in &quot;Clash Royale&quot;.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "General Knowledge",
+        "question": "Adolf Hitler was born in Australia. ",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "History",
+        "question": "Adolf Hitler was a german soldier in World War I.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In &quot;Sonic Adventure&quot;, you are able to transform into Super Sonic at will after completing the main story.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "General Knowledge",
+        "question": "French is an official language in Canada.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    }
+]

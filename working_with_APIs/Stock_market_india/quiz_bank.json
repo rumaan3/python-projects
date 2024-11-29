@@ -1,0 +1,102 @@
+[
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In Heroes of the Storm, the Cursed Hollow map gimmick requires players to kill the undead to curse the enemy team.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Film",
+        "question": "Actor Tommy Chong served prison time.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "The programming language &quot;Python&quot; is based off a modified version of &quot;JavaScript&quot;.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Geography",
+        "question": "New Haven is the capital city of the state of Connecticut in the United States.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "History",
+        "question": "The Tiananmen Square protests of 1989 were held in Hong Kong.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Film",
+        "question": "In the movie The Revenant, DiCaprio&#039;s character hunts down the killer of his son.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Politics",
+        "question": "The 2016 United States Presidential Election is the first time Hillary Clinton has run for President.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Music",
+        "question": "Korean girl group, TWICE, consists of 9 members",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Animals",
+        "question": "A bear does NOT defecate during hibernation. ",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Television",
+        "question": "In &quot;Doctor Who&quot;, the Doctor gets his TARDIS by stealing it.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "General Knowledge",
+        "question": "Video streaming website YouTube was purchased in it&#039;s entirety by Facebook for US$1.65 billion in stock.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In Heroes of the Storm, the Cursed Hollow map gimmick requires players to kill the undead to curse the enemy team.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Music",
+        "question": "Lead Singer Rivers Cuomo of American rock band Weezer attended Harvard.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In Team Fortress 2, being disguised as a scout or medic results in a speed boost.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Politics",
+        "question": "Former president Theodore Roosevelt (1900-1908)  ran for another term under the Progressive Party in 1912.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Science: Mathematics",
+        "question": "The sum of any two odd integers is odd.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Science: Computers",
+        "question": "The Python programming language gets its name from the British comedy group &quot;Monty Python.&quot;",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Japanese Anime &amp; Manga",
+        "question": "In the &quot;Melancholy of Haruhi Suzumiya&quot; series, the narrator goes by the nickname Kyon.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Science: Gadgets",
+        "question": "The communication protocol NFC stands for Near-Field Control.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Musicals &amp; Theatres",
+        "question": "IMAX stands for Image Maximum.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    }
+]
