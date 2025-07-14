@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LinkedIn-Easy-Apply-Bot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LinkedIn-Easy-Apply-Bot/linkedin_github_repo_clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonProject/AI_apply2/web-ui" vcs="Git" />
   </component>
 </project>
